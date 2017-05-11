@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>runinfo</class>
+ <widget class="QDialog" name="runinfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>运行记录</string>
+  </property>
+  <widget class="QLabel" name="title_2">
+   <property name="geometry">
+    <rect>
+     <x>355</x>
+     <y>10</y>
+     <width>314</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>运行记录</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp3">
+   <property name="geometry">
+    <rect>
+     <x>534</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonquit">
+   <property name="geometry">
+    <rect>
+     <x>862</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>退   出</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_3">
+   <property name="geometry">
+    <rect>
+     <x>669</x>
+     <y>10</y>
+     <width>345</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>16年06月17日 10:16:20</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp4">
+   <property name="geometry">
+    <rect>
+     <x>698</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp1">
+   <property name="geometry">
+    <rect>
+     <x>206</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp0">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelbuttonarea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>703</y>
+     <width>1004</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>345</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_1_1">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>180</y>
+     <width>170</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>记录项目</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_1_3">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>180</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>记录开始时刻</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_1_2">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>180</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>记录状态</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_1_4">
+   <property name="geometry">
+    <rect>
+     <x>657</x>
+     <y>180</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>记录容量</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_2_4">
+   <property name="geometry">
+    <rect>
+     <x>657</x>
+     <y>215</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_2_2">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>215</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_2_1">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>215</y>
+     <width>170</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>运行数据</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_2_3">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>215</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_3_1">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>250</y>
+     <width>170</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>走行数据</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_3_4">
+   <property name="geometry">
+    <rect>
+     <x>657</x>
+     <y>250</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_3_2">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>250</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_3_3">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>250</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_4_4">
+   <property name="geometry">
+    <rect>
+     <x>657</x>
+     <y>285</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_4_3">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>285</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_4_2">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>285</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_4_1">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>285</y>
+     <width>170</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>乘车率数据</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_5_4">
+   <property name="geometry">
+    <rect>
+     <x>657</x>
+     <y>320</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_5_2">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>320</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_5_3">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>320</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_5_1">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>320</y>
+     <width>170</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>行车距离</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_6_4">
+   <property name="geometry">
+    <rect>
+     <x>657</x>
+     <y>355</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_6_1">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>355</y>
+     <width>170</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>牵引电力</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_6_3">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>355</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_6_2">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>355</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_7_4">
+   <property name="geometry">
+    <rect>
+     <x>657</x>
+     <y>390</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_7_2">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>390</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_7_3">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>390</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_7_1">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>390</y>
+     <width>170</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>再生电力</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_8_4">
+   <property name="geometry">
+    <rect>
+     <x>657</x>
+     <y>425</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_8_1">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>425</y>
+     <width>170</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>空压机工作率</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_8_3">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>425</y>
+     <width>230</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="labelinfo_8_2">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>425</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>labelbuttonarea</zorder>
+  <zorder>title_2</zorder>
+  <zorder>buttontemp3</zorder>
+  <zorder>buttonquit</zorder>
+  <zorder>title_3</zorder>
+  <zorder>buttontemp4</zorder>
+  <zorder>buttontemp1</zorder>
+  <zorder>buttontemp0</zorder>
+  <zorder>buttontemp2</zorder>
+  <zorder>title</zorder>
+  <zorder>labelinfo_1_1</zorder>
+  <zorder>labelinfo_1_3</zorder>
+  <zorder>labelinfo_1_2</zorder>
+  <zorder>labelinfo_1_4</zorder>
+  <zorder>labelinfo_2_4</zorder>
+  <zorder>labelinfo_2_2</zorder>
+  <zorder>labelinfo_2_1</zorder>
+  <zorder>labelinfo_2_3</zorder>
+  <zorder>labelinfo_3_1</zorder>
+  <zorder>labelinfo_3_4</zorder>
+  <zorder>labelinfo_3_2</zorder>
+  <zorder>labelinfo_3_3</zorder>
+  <zorder>labelinfo_4_4</zorder>
+  <zorder>labelinfo_4_3</zorder>
+  <zorder>labelinfo_4_2</zorder>
+  <zorder>labelinfo_4_1</zorder>
+  <zorder>labelinfo_5_4</zorder>
+  <zorder>labelinfo_5_2</zorder>
+  <zorder>labelinfo_5_3</zorder>
+  <zorder>labelinfo_5_1</zorder>
+  <zorder>labelinfo_6_4</zorder>
+  <zorder>labelinfo_6_1</zorder>
+  <zorder>labelinfo_6_3</zorder>
+  <zorder>labelinfo_6_2</zorder>
+  <zorder>labelinfo_7_4</zorder>
+  <zorder>labelinfo_7_2</zorder>
+  <zorder>labelinfo_7_3</zorder>
+  <zorder>labelinfo_7_1</zorder>
+  <zorder>labelinfo_8_4</zorder>
+  <zorder>labelinfo_8_1</zorder>
+  <zorder>labelinfo_8_3</zorder>
+  <zorder>labelinfo_8_2</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyLabel</class>
+   <extends>QLabel</extends>
+   <header>mylabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

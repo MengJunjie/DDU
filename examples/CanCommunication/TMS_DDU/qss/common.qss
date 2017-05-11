@@ -1,0 +1,128 @@
+#MainWidget, #mainmenu, #MainCarInfo, #reparismenu, #airconditioninfo, #airpumpcheck, #brakecheck, #carinfoinit, #delerrinfo,
+#delruninfo, #delspeedinfo, #doorcheck, #errinfo,#keepmove, #password, #runinfo, #setaircondition, #setaspara, #setdatetime,
+#setdirection,#setstation, #setpara, #setpassword, #sivcheck, #speedcheck, #speedcheckchange, #viewerrlist1, #viewerrlist2,
+#errorrecord,#errdetail, #linkerreadout, #errorvvvfsiv, #initsetsure, #runtable, #networkstation, #setCarId, #IOScreen, #PTUDownload{
+    background-color: rgb(0, 0, 0);
+}
+
+QLabel{
+    color:rgb(245, 245, 245);
+}
+
+/*QPushButton{
+    background-color: rgb(217, 217, 217);
+}
+QPushButton:selected{
+    background-color: rgb(0, 255, 0);
+}
+QPushButton:!selected{
+    background-color: rgb(217, 217, 217);
+}
+QPushButton[pBtnSelected="true"]{
+    background-color: rgb(0, 255, 0);
+}
+QPushButton[pBtnSelected="false"]{
+    background-color: rgb(217, 217, 217);
+}
+QPushButton:checked{
+    background-color: rgb(0, 255, 0);
+}
+QPushButton:!checked{
+    background-color: rgb(217, 217, 217);
+}*/
+
+QLabel{
+    color:rgb(245, 245, 245);
+}
+
+#title, #title_2, #title_3, #title_5, #title_4, #title_6, #labelbuttonarea{
+    border:1px solid;
+    border-color:rgb(245, 245, 245);
+    color:rgb(245, 245, 245);
+}
+
+#labelruntype, #labelendstation, #labelnextstation, #labelcurrentstation, #labelInitType, #labelInitTableId, #labelInitCarId,
+#label_year, #label_month, #label_day, #label_hour, #label_minute, #label_second, #labeloldvalue, #labelnewvalue, #labelerrdetail1, #labelerrdetail2,
+#labelerrdetail3, #labelpassword_old, #labelpassword_new, #labelpassword_sure, #labelshowtype, #labelshowtableId, #labelshowcarId, #labelshowcurstation,
+#labelshowendstation, #labelaccmode, #labelacctemp, #labelvoltage, #labelcurrent, #labelbrake, #labelspeed, #labelATO{
+    border:1px solid;
+    border-color:rgb(245, 245, 245);
+    color:rgb(245, 245, 245);
+}
+
+/*#title_err{
+    border:1px solid;
+    border-color:rgb(245, 245, 245);
+    background-color: rgb(255, 0, 0);
+    color:rgb(245, 245, 245);
+}*/
+
+#labelinfo_1_1, #labelinfo_1_2, #labelinfo_1_3, #labelinfo_1_4, #labelinfo_1_5, #labelinfo_1_6, #labelinfo_1_7, #labelinfo_1_8,
+#labelinfo_2_1, #labelinfo_2_2, #labelinfo_2_3, #labelinfo_2_4, #labelinfo_2_5, #labelinfo_2_6, #labelinfo_2_7, #labelinfo_2_8,
+#labelinfo_3_1, #labelinfo_3_2, #labelinfo_3_3, #labelinfo_3_4, #labelinfo_3_5, #labelinfo_3_6, #labelinfo_3_7, #labelinfo_3_8,
+#labelinfo_4_1, #labelinfo_4_2, #labelinfo_4_3, #labelinfo_4_4, #labelinfo_4_5, #labelinfo_4_6, #labelinfo_4_7, #labelinfo_4_8,
+#labelinfo_5_1, #labelinfo_5_2, #labelinfo_5_3, #labelinfo_5_4, #labelinfo_5_5, #labelinfo_5_6, #labelinfo_5_7, #labelinfo_5_8,
+#labelinfo_6_1, #labelinfo_6_2, #labelinfo_6_3, #labelinfo_6_4, #labelinfo_6_5, #labelinfo_6_6, #labelinfo_6_7, #labelinfo_6_8,
+#labelinfo_7_1, #labelinfo_7_2, #labelinfo_7_3, #labelinfo_7_4, #labelinfo_7_5, #labelinfo_7_6, #labelinfo_7_7, #labelinfo_7_8,
+#labelinfo_8_1, #labelinfo_8_2, #labelinfo_8_3, #labelinfo_8_4, #labelinfo_8_5, #labelinfo_8_6, #labelinfo_8_7, #labelinfo_8_8,
+#labelinfo_9_1, #labelinfo_9_2, #labelinfo_9_3, #labelinfo_9_4, #labelinfo_9_5, #labelinfo_9_6, #labelinfo_9_7, #labelinfo_9_8,
+#labelinfo_10_1, #labelinfo_10_2, #labelinfo_10_3, #labelinfo_10_4, #labelinfo_10_5, #labelinfo_10_6, #labelinfo_10_7, #labelinfo_10_8,
+#labelinfo_11_1, #labelinfo_11_2, #labelinfo_11_3, #labelinfo_11_4, #labelinfo_11_5, #labelinfo_11_6, #labelinfo_11_7, #labelinfo_11_8,
+#labelinfo_12_1, #labelinfo_12_2, #labelinfo_12_3, #labelinfo_12_4, #labelinfo_13_1, #labelinfo_13_2, #labelinfo_13_3, #labelinfo_13_4,
+#labelinfo_14_1, #labelinfo_14_2, #labelinfo_14_3, #labelinfo_14_4,
+#labelinfo_7_234, #labelinfo_7_345, #labelinfo_2345, #labelinfo_6789{
+    border:1px solid;
+    border-color:rgb(245, 245, 245);
+    color:rgb(245, 245, 245);
+}
+
+#labelMDU_1, #labelMDU_2, #labelMDU_3, #labelMDU_4, #labelMDU_5, #labelMDU_6,
+#labelHMI_1, #labelERM_1, #labelERM_2, #labelHMI_2{
+    border:1px solid;
+    border-color:rgb(245, 245, 245);
+    background-color:rgb(0, 0, 0);
+    color:rgb(245, 245, 245);
+}
+#line_HMI1_CCU1_1, #line_1_CCU1, #line_1_1, #line_1_2_1, #line_2_3_1, #line_3_4_1, #line_4_5_1, #line_5_6_1, #line_6_1, #line_6_ERM2, #line_ERM2_CCU2, #line_HMI2_CCU2_1{
+    border:2px solid;
+    border-color:rgb(119, 47, 40);
+    background-color:rgb(119, 47, 40);
+}
+
+#line_HMI1_CCU1_2, #line_ERM1_CCU1, #line_1_ERM1, #line_1_2, #line_1_2_2, #line_2_3_2, #line_3_4_2, #line_4_5_2, #line_5_6_2, #line_6_2, #line_6_CCU2, #line_HMI2_CCU2_2{
+    border:2px solid;
+    border-color:rgb(204, 0, 153);
+    background-color:rgb(204, 0, 153);
+}
+
+#line_V_1, #line_V_1_H_1, #line_V_1_H_2, #line_V_1_H_3, #line_V_1_H_4, #line_V_1_H_5, #line_V_1_H_6, #line_V_1_H_7,
+#line_V_2, #line_V_2_H_1, #line_V_2_H_2, #line_V_2_H_3, #line_V_2_H_4,
+#line_V_3, #line_V_3_H_1, #line_V_3_H_2, #line_V_3_H_3, #line_V_3_H_4, #line_V_3_H_5,
+#line_V_4, #line_V_4_H_1, #line_V_4_H_2, #line_V_4_H_3, #line_V_4_H_4,
+#line_V_5, #line_V_5_H_1, #line_V_5_H_2, #line_V_5_H_3,
+#line_V_6, #line_V_6_H_1, #line_V_6_H_2, #line_V_6_H_3, #line_V_6_H_4, #line_V_6_H_5, #line_V_6_H_6, #line_V_6_H_7{
+    border:2px solid;
+    border-color:rgb(245, 245, 245);
+    background-color:rgb(245, 245, 245);
+}
+
+#labelMDU_1_ATC, #labelMDU_1_PIS, #labelMDU_1_HVAC, #labelMDU_1_EDCU, #labelMDU_1_TCU1, #labelMDU_1_TCU2, #labelMDU_1_BCU,
+#labelMDU_2_HVAC, #labelMDU_2_SIV, #labelMDU_2_EDCU, #labelMDU_2_BCU,
+#labelMDU_3_HVAC, #labelMDU_3_TCU1, #labelMDU_3_TCU2, #labelMDU_3_EDCU, #labelMDU_3_BCU,
+#labelMDU_4_HVAC, #labelMDU_4_SIV, #labelMDU_4_EDCU, #labelMDU_4_BCU,
+#labelMDU_5_HVAC, #labelMDU_5_EDCU, #labelMDU_5_BCU,
+#labelMDU_6_ATC, #labelMDU_6_PIS, #labelMDU_6_HVAC, #labelMDU_6_EDCU, #labelMDU_6_TCU1, #labelMDU_6_TCU2, #labelMDU_6_BCU{
+    border:1px solid;
+    border-color:rgb(0, 176, 80);
+    background-color:rgb(0, 176, 80);
+    color:rgb(0, 0, 0);
+}
+
+#label_0_0, #label_0_1, #label_0_2, #label_0_3, #label_0_4, #label_0_5, #label_0_6, #label_1_1, #label_1_2, #label_1_3, #label_1_4, #label_1_5, #label_1_6, #label_2_1, #label_2_2, #label_2_3, #label_2_4, #label_2_5, #label_2_6,
+#label_3_1, #label_3_2, #label_3_3, #label_3_4, #label_3_5, #label_3_6, #label_4_1, #label_4_2, #label_4_3, #label_4_4, #label_4_5, #label_4_6, #label_5_1, #label_5_2, #label_5_3, #label_5_4, #label_5_5, #label_5_6,
+#label_6_1, #label_6_2, #label_6_3, #label_6_4, #label_6_5, #label_6_6, #label_7_1, #label_7_2, #label_7_3, #label_7_4, #label_7_5, #label_7_6, #label_8_1, #label_8_2, #label_8_3, #label_8_4, #label_8_5, #label_8_6,
+#label_9_1, #label_9_2, #label_9_3, #label_9_4, #label_9_5, #label_9_6, #label_10_1, #label_10_2, #label_10_3, #label_10_4, #label_10_5, #label_10_6 , #label_PWM_0, #label_PWM_1, #label_PWM_2{
+    border:1px solid;
+    border-color:rgb(245, 245, 245);
+    color:rgb(245, 245, 245);
+}

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>linkerreadout</class>
+ <widget class="QDialog" name="linkerreadout">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="buttontemp4">
+   <property name="geometry">
+    <rect>
+     <x>698</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_2">
+   <property name="geometry">
+    <rect>
+     <x>355</x>
+     <y>10</y>
+     <width>314</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>连接器读出</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_3">
+   <property name="geometry">
+    <rect>
+     <x>669</x>
+     <y>10</y>
+     <width>345</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>16年06月17日 10:16:20</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp3">
+   <property name="geometry">
+    <rect>
+     <x>534</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp1">
+   <property name="geometry">
+    <rect>
+     <x>206</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonquit">
+   <property name="geometry">
+    <rect>
+     <x>862</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>退   出</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>345</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp0">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelbuttonarea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>703</y>
+     <width>1004</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonlink">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>653</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>连   接</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonbreak">
+   <property name="geometry">
+    <rect>
+     <x>206</x>
+     <y>653</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>断   开</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelmessage">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>608</y>
+     <width>721</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>与读出装置连接，请按[连接]键。</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <zorder>labelbuttonarea</zorder>
+  <zorder>buttontemp4</zorder>
+  <zorder>title_2</zorder>
+  <zorder>title_3</zorder>
+  <zorder>buttontemp3</zorder>
+  <zorder>buttontemp1</zorder>
+  <zorder>buttonquit</zorder>
+  <zorder>title</zorder>
+  <zorder>buttontemp2</zorder>
+  <zorder>buttontemp0</zorder>
+  <zorder>buttonlink</zorder>
+  <zorder>buttonbreak</zorder>
+  <zorder>labelmessage</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

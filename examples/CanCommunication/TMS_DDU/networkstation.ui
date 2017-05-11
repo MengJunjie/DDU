@@ -1,0 +1,2604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>networkstation</class>
+ <widget class="QDialog" name="networkstation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="title_2">
+   <property name="geometry">
+    <rect>
+     <x>355</x>
+     <y>10</y>
+     <width>314</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>通讯状态</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>345</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_3">
+   <property name="geometry">
+    <rect>
+     <x>669</x>
+     <y>10</y>
+     <width>345</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>16年06月17日 10:16:20</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonback">
+   <property name="geometry">
+    <rect>
+     <x>862</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>返   回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp3">
+   <property name="geometry">
+    <rect>
+     <x>534</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelbuttonarea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>703</y>
+     <width>1004</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp1">
+   <property name="geometry">
+    <rect>
+     <x>206</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp0">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp4">
+   <property name="geometry">
+    <rect>
+     <x>698</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_4">
+   <property name="geometry">
+    <rect>
+     <x>387</x>
+     <y>140</y>
+     <width>125</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_2">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>140</y>
+     <width>125</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_6">
+   <property name="geometry">
+    <rect>
+     <x>637</x>
+     <y>140</y>
+     <width>125</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_3">
+   <property name="geometry">
+    <rect>
+     <x>262</x>
+     <y>140</y>
+     <width>125</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_7">
+   <property name="geometry">
+    <rect>
+     <x>762</x>
+     <y>140</y>
+     <width>125</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>100</y>
+     <width>164</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>车     号</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_5">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>140</y>
+     <width>125</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_1">
+   <property name="geometry">
+    <rect>
+     <x>173</x>
+     <y>230</y>
+     <width>70</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>MDU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_2">
+   <property name="geometry">
+    <rect>
+     <x>298</x>
+     <y>230</y>
+     <width>70</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>MDU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_3">
+   <property name="geometry">
+    <rect>
+     <x>423</x>
+     <y>230</y>
+     <width>70</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>MDU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_4">
+   <property name="geometry">
+    <rect>
+     <x>522</x>
+     <y>230</y>
+     <width>70</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>MDU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_5">
+   <property name="geometry">
+    <rect>
+     <x>665</x>
+     <y>230</y>
+     <width>70</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>MDU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_6">
+   <property name="geometry">
+    <rect>
+     <x>781</x>
+     <y>230</y>
+     <width>70</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>MDU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_1_1">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>230</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_1_2">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>263</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_2_2">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>263</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_2_1">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>230</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_3_2">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>263</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_3_1">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>230</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_4_2">
+   <property name="geometry">
+    <rect>
+     <x>592</x>
+     <y>263</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_4_1">
+   <property name="geometry">
+    <rect>
+     <x>592</x>
+     <y>230</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_5_1">
+   <property name="geometry">
+    <rect>
+     <x>735</x>
+     <y>230</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_5_2">
+   <property name="geometry">
+    <rect>
+     <x>735</x>
+     <y>263</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_6_2">
+   <property name="geometry">
+    <rect>
+     <x>851</x>
+     <y>263</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_6_1">
+   <property name="geometry">
+    <rect>
+     <x>851</x>
+     <y>230</y>
+     <width>17</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line_1_1">
+   <property name="geometry">
+    <rect>
+     <x>61</x>
+     <y>239</y>
+     <width>95</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_1_2">
+   <property name="geometry">
+    <rect>
+     <x>107</x>
+     <y>272</y>
+     <width>49</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_1_2_1">
+   <property name="geometry">
+    <rect>
+     <x>243</x>
+     <y>239</y>
+     <width>38</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_1_2_2">
+   <property name="geometry">
+    <rect>
+     <x>243</x>
+     <y>272</y>
+     <width>38</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2_3_1">
+   <property name="geometry">
+    <rect>
+     <x>368</x>
+     <y>239</y>
+     <width>38</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2_3_2">
+   <property name="geometry">
+    <rect>
+     <x>368</x>
+     <y>272</y>
+     <width>38</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3_4_1">
+   <property name="geometry">
+    <rect>
+     <x>493</x>
+     <y>239</y>
+     <width>29</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3_4_2">
+   <property name="geometry">
+    <rect>
+     <x>493</x>
+     <y>272</y>
+     <width>29</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4_5_1">
+   <property name="geometry">
+    <rect>
+     <x>609</x>
+     <y>239</y>
+     <width>56</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4_5_2">
+   <property name="geometry">
+    <rect>
+     <x>609</x>
+     <y>272</y>
+     <width>56</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_5_6_1">
+   <property name="geometry">
+    <rect>
+     <x>752</x>
+     <y>239</y>
+     <width>29</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_5_6_2">
+   <property name="geometry">
+    <rect>
+     <x>752</x>
+     <y>272</y>
+     <width>29</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_6_1">
+   <property name="geometry">
+    <rect>
+     <x>868</x>
+     <y>239</y>
+     <width>95</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_6_2">
+   <property name="geometry">
+    <rect>
+     <x>868</x>
+     <y>272</y>
+     <width>49</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_R1">
+   <property name="geometry">
+    <rect>
+     <x>624</x>
+     <y>230</y>
+     <width>26</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>R1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_R2">
+   <property name="geometry">
+    <rect>
+     <x>624</x>
+     <y>263</y>
+     <width>26</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>R2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_1_H_1">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>344</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_2">
+   <property name="geometry">
+    <rect>
+     <x>358</x>
+     <y>285</y>
+     <width>4</width>
+     <height>197</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelERM_1">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>320</y>
+     <width>56</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ERM</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelERM_1_1">
+   <property name="geometry">
+    <rect>
+     <x>97</x>
+     <y>303</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line_1_ERM1">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>273</y>
+     <width>4</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_ERM1_CCU1">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>352</y>
+     <width>4</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCCU_1_2">
+   <property name="geometry">
+    <rect>
+     <x>97</x>
+     <y>382</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCCU_1_1">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>382</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCCU_1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>399</y>
+     <width>110</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="Line" name="line_1_CCU1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>240</y>
+     <width>4</width>
+     <height>142</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelHMI_1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>478</y>
+     <width>110</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>HMI</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelHMI_1_2">
+   <property name="geometry">
+    <rect>
+     <x>97</x>
+     <y>461</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelHMI_1_1">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>461</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line_HMI1_CCU1_1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>431</y>
+     <width>4</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_HMI1_CCU1_2">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>431</y>
+     <width>4</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_6_CCU2">
+   <property name="geometry">
+    <rect>
+     <x>914</x>
+     <y>273</y>
+     <width>4</width>
+     <height>109</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_6_ERM2">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>240</y>
+     <width>4</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelERM_2">
+   <property name="geometry">
+    <rect>
+     <x>934</x>
+     <y>320</y>
+     <width>56</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ERM</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelERM_2_1">
+   <property name="geometry">
+    <rect>
+     <x>951</x>
+     <y>303</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelHMI_2_2">
+   <property name="geometry">
+    <rect>
+     <x>951</x>
+     <y>461</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line_HMI2_CCU2_2">
+   <property name="geometry">
+    <rect>
+     <x>914</x>
+     <y>431</y>
+     <width>4</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCCU_2_2">
+   <property name="geometry">
+    <rect>
+     <x>951</x>
+     <y>382</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelHMI_2">
+   <property name="geometry">
+    <rect>
+     <x>884</x>
+     <y>478</y>
+     <width>110</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>HMI</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelHMI_2_1">
+   <property name="geometry">
+    <rect>
+     <x>905</x>
+     <y>461</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCCU_2">
+   <property name="geometry">
+    <rect>
+     <x>884</x>
+     <y>399</y>
+     <width>110</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCCU_2_1">
+   <property name="geometry">
+    <rect>
+     <x>905</x>
+     <y>382</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line_HMI2_CCU2_1">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>431</y>
+     <width>4</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_ERM2_CCU2">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>352</y>
+     <width>4</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_1_ATC">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>330</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ATC</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_1_PIS">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>375</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>PIS</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_1_HVAC">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>420</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>HVAC</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_1_EDCU">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>465</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>EDCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_1_TCU1">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>510</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TCU1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_1_TCU2">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>555</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TCU2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_1_BCU">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>600</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>BCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_1">
+   <property name="geometry">
+    <rect>
+     <x>233</x>
+     <y>285</y>
+     <width>4</width>
+     <height>332</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_2_BCU">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>465</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>BCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_2_HVAC">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>330</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>HVAC</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_2_SIV">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>375</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>SIV</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_2_EDCU">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>420</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>EDCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_3_BCU">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>510</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>BCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_3_EDCU">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>465</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>EDCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_3_HVAC">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>330</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>HVAC</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_3_TCU1">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>375</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TCU1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_3_TCU2">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>420</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TCU2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_4_BCU">
+   <property name="geometry">
+    <rect>
+     <x>547</x>
+     <y>465</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>BCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_4_HVAC">
+   <property name="geometry">
+    <rect>
+     <x>547</x>
+     <y>330</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>HVAC</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_4_SIV">
+   <property name="geometry">
+    <rect>
+     <x>547</x>
+     <y>375</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>SIV</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_4_EDCU">
+   <property name="geometry">
+    <rect>
+     <x>547</x>
+     <y>420</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>EDCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_5_BCU">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>420</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>BCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_5_HVAC">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>330</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>HVAC</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_5_EDCU">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>375</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>EDCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_6_BCU">
+   <property name="geometry">
+    <rect>
+     <x>806</x>
+     <y>600</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>BCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_6_TCU1">
+   <property name="geometry">
+    <rect>
+     <x>806</x>
+     <y>510</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TCU1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_6_EDCU">
+   <property name="geometry">
+    <rect>
+     <x>806</x>
+     <y>465</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>EDCU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_6_TCU2">
+   <property name="geometry">
+    <rect>
+     <x>806</x>
+     <y>555</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TCU2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_6_ATC">
+   <property name="geometry">
+    <rect>
+     <x>806</x>
+     <y>330</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ATC</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_6_PIS">
+   <property name="geometry">
+    <rect>
+     <x>806</x>
+     <y>375</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>PIS</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMDU_6_HVAC">
+   <property name="geometry">
+    <rect>
+     <x>806</x>
+     <y>420</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>HVAC</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_3">
+   <property name="geometry">
+    <rect>
+     <x>483</x>
+     <y>285</y>
+     <width>4</width>
+     <height>242</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_4">
+   <property name="geometry">
+    <rect>
+     <x>528</x>
+     <y>285</y>
+     <width>4</width>
+     <height>197</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_5">
+   <property name="geometry">
+    <rect>
+     <x>671</x>
+     <y>285</y>
+     <width>4</width>
+     <height>152</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_6">
+   <property name="geometry">
+    <rect>
+     <x>787</x>
+     <y>285</y>
+     <width>4</width>
+     <height>332</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_1_H_2">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>389</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_1_H_3">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>434</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_1_H_4">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>479</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_1_H_5">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>524</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_1_H_6">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>569</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_1_H_7">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>614</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_2_H_1">
+   <property name="geometry">
+    <rect>
+     <x>343</x>
+     <y>344</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_2_H_2">
+   <property name="geometry">
+    <rect>
+     <x>343</x>
+     <y>389</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_2_H_3">
+   <property name="geometry">
+    <rect>
+     <x>343</x>
+     <y>434</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_2_H_4">
+   <property name="geometry">
+    <rect>
+     <x>343</x>
+     <y>479</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_3_H_1">
+   <property name="geometry">
+    <rect>
+     <x>468</x>
+     <y>344</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_3_H_2">
+   <property name="geometry">
+    <rect>
+     <x>468</x>
+     <y>389</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_3_H_3">
+   <property name="geometry">
+    <rect>
+     <x>468</x>
+     <y>434</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_3_H_4">
+   <property name="geometry">
+    <rect>
+     <x>468</x>
+     <y>479</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_3_H_5">
+   <property name="geometry">
+    <rect>
+     <x>468</x>
+     <y>524</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_4_H_1">
+   <property name="geometry">
+    <rect>
+     <x>529</x>
+     <y>344</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_4_H_2">
+   <property name="geometry">
+    <rect>
+     <x>529</x>
+     <y>389</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_4_H_3">
+   <property name="geometry">
+    <rect>
+     <x>529</x>
+     <y>434</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_4_H_4">
+   <property name="geometry">
+    <rect>
+     <x>529</x>
+     <y>479</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_5_H_1">
+   <property name="geometry">
+    <rect>
+     <x>672</x>
+     <y>344</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_5_H_2">
+   <property name="geometry">
+    <rect>
+     <x>672</x>
+     <y>389</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_5_H_3">
+   <property name="geometry">
+    <rect>
+     <x>672</x>
+     <y>434</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_6_H_1">
+   <property name="geometry">
+    <rect>
+     <x>788</x>
+     <y>344</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_6_H_2">
+   <property name="geometry">
+    <rect>
+     <x>788</x>
+     <y>389</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_6_H_3">
+   <property name="geometry">
+    <rect>
+     <x>788</x>
+     <y>434</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_6_H_4">
+   <property name="geometry">
+    <rect>
+     <x>788</x>
+     <y>479</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_6_H_5">
+   <property name="geometry">
+    <rect>
+     <x>788</x>
+     <y>524</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_6_H_6">
+   <property name="geometry">
+    <rect>
+     <x>788</x>
+     <y>569</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_V_6_H_7">
+   <property name="geometry">
+    <rect>
+     <x>788</x>
+     <y>614</y>
+     <width>18</width>
+     <height>4</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCAN1">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>590</y>
+     <width>130</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CAN1 状态</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCAN2">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>635</y>
+     <width>130</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CAN2 状态</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCAN1_1">
+   <property name="geometry">
+    <rect>
+     <x>547</x>
+     <y>590</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCAN2_1">
+   <property name="geometry">
+    <rect>
+     <x>547</x>
+     <y>635</y>
+     <width>62</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>labelbuttonarea</zorder>
+  <zorder>title_2</zorder>
+  <zorder>title</zorder>
+  <zorder>title_3</zorder>
+  <zorder>buttontemp2</zorder>
+  <zorder>buttonback</zorder>
+  <zorder>buttontemp3</zorder>
+  <zorder>buttontemp1</zorder>
+  <zorder>buttontemp0</zorder>
+  <zorder>buttontemp4</zorder>
+  <zorder>labelinfo_1_4</zorder>
+  <zorder>labelinfo_1_2</zorder>
+  <zorder>labelinfo_1_6</zorder>
+  <zorder>labelinfo_1_3</zorder>
+  <zorder>labelinfo_1_7</zorder>
+  <zorder>labelinfo</zorder>
+  <zorder>labelinfo_1_5</zorder>
+  <zorder>labelMDU_1</zorder>
+  <zorder>labelMDU_2</zorder>
+  <zorder>labelMDU_3</zorder>
+  <zorder>labelMDU_4</zorder>
+  <zorder>labelMDU_5</zorder>
+  <zorder>labelMDU_6</zorder>
+  <zorder>labelMDU_1_1</zorder>
+  <zorder>labelMDU_1_2</zorder>
+  <zorder>labelMDU_2_2</zorder>
+  <zorder>labelMDU_2_1</zorder>
+  <zorder>labelMDU_3_2</zorder>
+  <zorder>labelMDU_3_1</zorder>
+  <zorder>labelMDU_4_2</zorder>
+  <zorder>labelMDU_4_1</zorder>
+  <zorder>labelMDU_5_1</zorder>
+  <zorder>labelMDU_5_2</zorder>
+  <zorder>labelMDU_6_2</zorder>
+  <zorder>labelMDU_6_1</zorder>
+  <zorder>line_1_1</zorder>
+  <zorder>line_1_2</zorder>
+  <zorder>line_1_2_1</zorder>
+  <zorder>line_1_2_2</zorder>
+  <zorder>line_2_3_1</zorder>
+  <zorder>line_2_3_2</zorder>
+  <zorder>line_3_4_1</zorder>
+  <zorder>line_3_4_2</zorder>
+  <zorder>line_4_5_1</zorder>
+  <zorder>line_4_5_2</zorder>
+  <zorder>line_5_6_1</zorder>
+  <zorder>line_5_6_2</zorder>
+  <zorder>line_6_1</zorder>
+  <zorder>line_6_2</zorder>
+  <zorder>label_R1</zorder>
+  <zorder>label_R2</zorder>
+  <zorder>line_V_1_H_1</zorder>
+  <zorder>line_V_2</zorder>
+  <zorder>labelERM_1</zorder>
+  <zorder>labelERM_1_1</zorder>
+  <zorder>line_1_ERM1</zorder>
+  <zorder>line_ERM1_CCU1</zorder>
+  <zorder>labelCCU_1_2</zorder>
+  <zorder>labelCCU_1_1</zorder>
+  <zorder>labelCCU_1</zorder>
+  <zorder>line_1_CCU1</zorder>
+  <zorder>labelHMI_1</zorder>
+  <zorder>labelHMI_1_2</zorder>
+  <zorder>labelHMI_1_1</zorder>
+  <zorder>line_HMI1_CCU1_1</zorder>
+  <zorder>line_HMI1_CCU1_2</zorder>
+  <zorder>line_6_CCU2</zorder>
+  <zorder>line_6_ERM2</zorder>
+  <zorder>labelERM_2</zorder>
+  <zorder>labelERM_2_1</zorder>
+  <zorder>labelHMI_2_2</zorder>
+  <zorder>line_HMI2_CCU2_2</zorder>
+  <zorder>labelCCU_2_2</zorder>
+  <zorder>labelHMI_2</zorder>
+  <zorder>labelHMI_2_1</zorder>
+  <zorder>labelCCU_2</zorder>
+  <zorder>labelCCU_2_1</zorder>
+  <zorder>line_HMI2_CCU2_1</zorder>
+  <zorder>line_ERM2_CCU2</zorder>
+  <zorder>labelMDU_1_ATC</zorder>
+  <zorder>labelMDU_1_PIS</zorder>
+  <zorder>labelMDU_1_HVAC</zorder>
+  <zorder>labelMDU_1_EDCU</zorder>
+  <zorder>labelMDU_1_TCU1</zorder>
+  <zorder>labelMDU_1_TCU2</zorder>
+  <zorder>labelMDU_1_BCU</zorder>
+  <zorder>line_V_1</zorder>
+  <zorder>labelMDU_2_BCU</zorder>
+  <zorder>labelMDU_2_HVAC</zorder>
+  <zorder>labelMDU_2_SIV</zorder>
+  <zorder>labelMDU_2_EDCU</zorder>
+  <zorder>labelMDU_3_BCU</zorder>
+  <zorder>labelMDU_3_EDCU</zorder>
+  <zorder>labelMDU_3_HVAC</zorder>
+  <zorder>labelMDU_3_TCU1</zorder>
+  <zorder>labelMDU_3_TCU2</zorder>
+  <zorder>labelMDU_4_BCU</zorder>
+  <zorder>labelMDU_4_HVAC</zorder>
+  <zorder>labelMDU_4_SIV</zorder>
+  <zorder>labelMDU_4_EDCU</zorder>
+  <zorder>labelMDU_5_BCU</zorder>
+  <zorder>labelMDU_5_HVAC</zorder>
+  <zorder>labelMDU_5_EDCU</zorder>
+  <zorder>labelMDU_6_BCU</zorder>
+  <zorder>labelMDU_6_TCU1</zorder>
+  <zorder>labelMDU_6_EDCU</zorder>
+  <zorder>labelMDU_6_TCU2</zorder>
+  <zorder>labelMDU_6_ATC</zorder>
+  <zorder>labelMDU_6_PIS</zorder>
+  <zorder>labelMDU_6_HVAC</zorder>
+  <zorder>line_V_3</zorder>
+  <zorder>line_V_4</zorder>
+  <zorder>line_V_5</zorder>
+  <zorder>line_V_6</zorder>
+  <zorder>line_V_1_H_2</zorder>
+  <zorder>line_V_1_H_3</zorder>
+  <zorder>line_V_1_H_4</zorder>
+  <zorder>line_V_1_H_5</zorder>
+  <zorder>line_V_1_H_6</zorder>
+  <zorder>line_V_1_H_7</zorder>
+  <zorder>line_V_2_H_1</zorder>
+  <zorder>line_V_2_H_2</zorder>
+  <zorder>line_V_2_H_3</zorder>
+  <zorder>line_V_2_H_4</zorder>
+  <zorder>line_V_3_H_1</zorder>
+  <zorder>line_V_3_H_2</zorder>
+  <zorder>line_V_3_H_3</zorder>
+  <zorder>line_V_3_H_4</zorder>
+  <zorder>line_V_3_H_5</zorder>
+  <zorder>line_V_4_H_1</zorder>
+  <zorder>line_V_4_H_2</zorder>
+  <zorder>line_V_4_H_3</zorder>
+  <zorder>line_V_4_H_4</zorder>
+  <zorder>line_V_5_H_1</zorder>
+  <zorder>line_V_5_H_2</zorder>
+  <zorder>line_V_5_H_3</zorder>
+  <zorder>line_V_6_H_1</zorder>
+  <zorder>line_V_6_H_2</zorder>
+  <zorder>line_V_6_H_3</zorder>
+  <zorder>line_V_6_H_4</zorder>
+  <zorder>line_V_6_H_5</zorder>
+  <zorder>line_V_6_H_6</zorder>
+  <zorder>line_V_6_H_7</zorder>
+  <zorder>labelCAN1</zorder>
+  <zorder>labelCAN2</zorder>
+  <zorder>labelCAN1_1</zorder>
+  <zorder>labelCAN2_1</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

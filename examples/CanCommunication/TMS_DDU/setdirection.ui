@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>setdirection</class>
+ <widget class="QDialog" name="setdirection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>方向确认</string>
+  </property>
+  <widget class="QLabel" name="labelinfo_1_2">
+   <property name="geometry">
+    <rect>
+     <x>279</x>
+     <y>232</y>
+     <width>105</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carimagelabel6">
+   <property name="geometry">
+    <rect>
+     <x>804</x>
+     <y>150</y>
+     <width>105</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carimagelabel2">
+   <property name="geometry">
+    <rect>
+     <x>384</x>
+     <y>150</y>
+     <width>105</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carlabel6">
+   <property name="geometry">
+    <rect>
+     <x>816</x>
+     <y>163</y>
+     <width>79</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>G4106</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_4">
+   <property name="geometry">
+    <rect>
+     <x>489</x>
+     <y>232</y>
+     <width>105</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp5">
+   <property name="geometry">
+    <rect>
+     <x>698</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_1">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>232</y>
+     <width>164</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>车     号</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carimagelabel3">
+   <property name="geometry">
+    <rect>
+     <x>489</x>
+     <y>150</y>
+     <width>105</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelarrow">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>150</y>
+     <width>164</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_3">
+   <property name="geometry">
+    <rect>
+     <x>384</x>
+     <y>232</y>
+     <width>105</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_3">
+   <property name="geometry">
+    <rect>
+     <x>669</x>
+     <y>10</y>
+     <width>345</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>16年06月17日 10:16:20</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp2">
+   <property name="geometry">
+    <rect>
+     <x>206</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_5">
+   <property name="geometry">
+    <rect>
+     <x>594</x>
+     <y>232</y>
+     <width>105</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carlabel4">
+   <property name="geometry">
+    <rect>
+     <x>606</x>
+     <y>163</y>
+     <width>81</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>G4104</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_2">
+   <property name="geometry">
+    <rect>
+     <x>355</x>
+     <y>10</y>
+     <width>314</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>方向确认</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_7">
+   <property name="geometry">
+    <rect>
+     <x>804</x>
+     <y>232</y>
+     <width>105</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp1">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carimagelabel4">
+   <property name="geometry">
+    <rect>
+     <x>594</x>
+     <y>150</y>
+     <width>105</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>345</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp4">
+   <property name="geometry">
+    <rect>
+     <x>534</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carlabel5">
+   <property name="geometry">
+    <rect>
+     <x>711</x>
+     <y>163</y>
+     <width>81</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>G4105</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carlabel3">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>163</y>
+     <width>81</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>G4103</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelinfo_1_6">
+   <property name="geometry">
+    <rect>
+     <x>699</x>
+     <y>232</y>
+     <width>105</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carimagelabel1">
+   <property name="geometry">
+    <rect>
+     <x>279</x>
+     <y>150</y>
+     <width>105</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelbuttonarea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>703</y>
+     <width>1004</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelmessage">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>540</y>
+     <width>651</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>运行方向正确，请按确认键。</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carlabel2">
+   <property name="geometry">
+    <rect>
+     <x>396</x>
+     <y>163</y>
+     <width>81</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>G4102</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonsure">
+   <property name="geometry">
+    <rect>
+     <x>862</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>确   认</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carlabel1">
+   <property name="geometry">
+    <rect>
+     <x>295</x>
+     <y>163</y>
+     <width>79</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>G4101</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp3">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carimagelabel5">
+   <property name="geometry">
+    <rect>
+     <x>699</x>
+     <y>150</y>
+     <width>105</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelmessage_2">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>610</y>
+     <width>651</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>如改变运行方向，请操作列车方向开关。</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <zorder>labelbuttonarea</zorder>
+  <zorder>carimagelabel3</zorder>
+  <zorder>carimagelabel1</zorder>
+  <zorder>carimagelabel2</zorder>
+  <zorder>carimagelabel5</zorder>
+  <zorder>carimagelabel4</zorder>
+  <zorder>carimagelabel6</zorder>
+  <zorder>labelarrow</zorder>
+  <zorder>labelinfo_1_2</zorder>
+  <zorder>carlabel6</zorder>
+  <zorder>labelinfo_1_4</zorder>
+  <zorder>buttontemp5</zorder>
+  <zorder>labelinfo_1_1</zorder>
+  <zorder>labelinfo_1_3</zorder>
+  <zorder>title_3</zorder>
+  <zorder>buttontemp2</zorder>
+  <zorder>labelinfo_1_5</zorder>
+  <zorder>carlabel4</zorder>
+  <zorder>title_2</zorder>
+  <zorder>labelinfo_1_7</zorder>
+  <zorder>buttontemp1</zorder>
+  <zorder>title</zorder>
+  <zorder>buttontemp4</zorder>
+  <zorder>carlabel5</zorder>
+  <zorder>carlabel3</zorder>
+  <zorder>labelinfo_1_6</zorder>
+  <zorder>labelmessage</zorder>
+  <zorder>carlabel2</zorder>
+  <zorder>buttonsure</zorder>
+  <zorder>carlabel1</zorder>
+  <zorder>buttontemp3</zorder>
+  <zorder>labelmessage_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

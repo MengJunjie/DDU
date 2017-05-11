@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>reparismenu</class>
+ <widget class="QDialog" name="reparismenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>维修菜单</string>
+  </property>
+  <widget class="QLabel" name="title_3">
+   <property name="geometry">
+    <rect>
+     <x>669</x>
+     <y>10</y>
+     <width>345</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>16年06月17日 10:16:20</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>345</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>No: 0000       Ver: 0.90</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_2">
+   <property name="geometry">
+    <rect>
+     <x>355</x>
+     <y>10</y>
+     <width>314</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>维修菜单</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonmenu">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>主 菜 单</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp3">
+   <property name="geometry">
+    <rect>
+     <x>534</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelbuttonarea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>703</y>
+     <width>1004</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp1">
+   <property name="geometry">
+    <rect>
+     <x>206</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontemp4">
+   <property name="geometry">
+    <rect>
+     <x>698</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonsure">
+   <property name="geometry">
+    <rect>
+     <x>862</x>
+     <y>708</y>
+     <width>120</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>确   认</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttondoorcheck">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>175</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>门开闭检查</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonaircheck">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>175</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>空压机检查</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonSIVcheck">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>175</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>SIV检查</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonbraketest">
+   <property name="geometry">
+    <rect>
+     <x>625</x>
+     <y>175</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>制动测试</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_temp1">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>175</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_temp4">
+   <property name="geometry">
+    <rect>
+     <x>625</x>
+     <y>255</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_temp2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>255</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonparameterset">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>255</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>参数设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontimeset">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>255</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>时钟设定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_temp3">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>255</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttondeleterunlog">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>335</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>删除运行记录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonrunlog">
+   <property name="geometry">
+    <rect>
+     <x>625</x>
+     <y>335</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>运行记录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonerrorlog">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>335</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>故障记录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_temp5">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>335</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttondeleteerrorlog">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>335</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>删除故障记录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonspeedtest">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>415</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>加减速度测定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonIOScreen">
+   <property name="geometry">
+    <rect>
+     <x>625</x>
+     <y>415</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>IO界面</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_temp6">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>415</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttondeletespeedtest">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>415</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>删除加减速度</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonlinkerreadout">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>415</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_temp11">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>495</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonpasswordset">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>495</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_temp8">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>495</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_temp9">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>495</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_temp10">
+   <property name="geometry">
+    <rect>
+     <x>625</x>
+     <y>495</y>
+     <width>165</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontempleft">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>140</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttontempright">
+   <property name="geometry">
+    <rect>
+     <x>874</x>
+     <y>60</y>
+     <width>140</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelmessage">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>640</y>
+     <width>721</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <zorder>labelbuttonarea</zorder>
+  <zorder>title_3</zorder>
+  <zorder>title</zorder>
+  <zorder>title_2</zorder>
+  <zorder>buttonmenu</zorder>
+  <zorder>buttontemp2</zorder>
+  <zorder>buttontemp3</zorder>
+  <zorder>buttontemp1</zorder>
+  <zorder>buttontemp4</zorder>
+  <zorder>buttonsure</zorder>
+  <zorder>buttondoorcheck</zorder>
+  <zorder>buttonaircheck</zorder>
+  <zorder>buttonSIVcheck</zorder>
+  <zorder>buttonbraketest</zorder>
+  <zorder>button_temp1</zorder>
+  <zorder>button_temp4</zorder>
+  <zorder>button_temp2</zorder>
+  <zorder>buttonparameterset</zorder>
+  <zorder>buttontimeset</zorder>
+  <zorder>button_temp3</zorder>
+  <zorder>buttondeleterunlog</zorder>
+  <zorder>buttonrunlog</zorder>
+  <zorder>buttonerrorlog</zorder>
+  <zorder>button_temp5</zorder>
+  <zorder>buttondeleteerrorlog</zorder>
+  <zorder>buttonspeedtest</zorder>
+  <zorder>buttonIOScreen</zorder>
+  <zorder>button_temp6</zorder>
+  <zorder>buttondeletespeedtest</zorder>
+  <zorder>buttonlinkerreadout</zorder>
+  <zorder>button_temp11</zorder>
+  <zorder>buttonpasswordset</zorder>
+  <zorder>button_temp8</zorder>
+  <zorder>button_temp9</zorder>
+  <zorder>button_temp10</zorder>
+  <zorder>buttontempleft</zorder>
+  <zorder>buttontempright</zorder>
+  <zorder>labelmessage</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>DoorCheckClicked()</slot>
+  <slot>AirPumpCheckClicked()</slot>
+  <slot>SivCheckClicked()</slot>
+  <slot>BrakeClicked()</slot>
+  <slot>DatetimeClicked()</slot>
+  <slot>ParaClicked()</slot>
+  <slot>ErrorInfoClicked()</slot>
+  <slot>DelErrorInfoClicked()</slot>
+  <slot>RunInfoClicked()</slot>
+  <slot>DelRunInfoClicked()</slot>
+  <slot>SpeedCheckClicked()</slot>
+  <slot>DelSpeedClicked()</slot>
+  <slot>ConnectClicked()</slot>
+  <slot>PasswordClicked()</slot>
+ </slots>
+</ui>

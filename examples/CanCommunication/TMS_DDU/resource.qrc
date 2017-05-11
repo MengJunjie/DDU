@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>png/Arrow_left.png</file>
+        <file>png/Arrow_right.png</file>
+        <file>qss/common.qss</file>
+        <file>png/MC1_CAR.png</file>
+        <file>png/MC2_CAR.png</file>
+        <file>png/M_CAR.png</file>
+        <file>png/T_CAR.png</file>
+        <file>bmp/sivLeft.bmp</file>
+        <file>bmp/sivRight.bmp</file>
+        <file>png/tempDown.png</file>
+        <file>png/tempUp.png</file>
+        <file>png/Arrow_left1.png</file>
+    </qresource>
+</RCC>
